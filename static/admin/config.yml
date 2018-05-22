@@ -4,6 +4,7 @@ backend:
   repo: jonathanbell/gatsby-pro-level-up-tutorials-demo
 
 media_folder: static/assets
+public_folder: /assets
 
 collections:
   - name: post
