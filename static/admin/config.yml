@@ -1,5 +1,5 @@
 backend:
-  # name: test-repo
+  # name: test-repo # default name of a out of the box default test Netlify CMS
   name: github
   repo: jonathanbell/gatsby-pro-level-up-tutorials-demo
 
@@ -14,3 +14,4 @@ collections:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: date }
       - { name: body, label: Post, widget: markdown }
+      - { name: image, label: Image, widget: image }
